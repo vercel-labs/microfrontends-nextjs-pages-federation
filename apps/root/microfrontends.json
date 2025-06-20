@@ -1,0 +1,24 @@
+{
+  "$schema": "https://openapi.vercel.sh/microfrontends.json",
+  "applications": {
+    "microfrontends-nextjs-pages-federation-root": {
+      "development": {
+        "fallback": "microfrontends-nextjs-pages-federation-root.vercel.app"
+      }
+    },
+    "microfrontends-nextjs-pages-federation-content": {
+      "routing": [
+        {
+          "paths": ["/_content/:path*"]
+        }
+      ]
+    },
+    "microfrontends-nextjs-pages-federation-navigation": {
+      "routing": [
+        {
+          "paths": ["/_navigation/:path*"]
+        }
+      ]
+    }
+  }
+}
