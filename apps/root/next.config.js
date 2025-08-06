@@ -22,7 +22,7 @@ const nextConfig = {
 
       // remove the prefix from the project name to have a cleaner remote name
       const remoteName = (packageName ?? name).replace(
-        'microfrontends-nextjs-pages-federation-',
+        'module-federation-',
         '',
       );
       const url = withRelatedProject({
