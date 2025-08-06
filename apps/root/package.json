@@ -1,5 +1,5 @@
 {
-  "name": "microfrontends-nextjs-pages-federation-root",
+  "name": "module-federation-root",
   "version": "0.0.0",
   "private": true,
   "type": "module",
