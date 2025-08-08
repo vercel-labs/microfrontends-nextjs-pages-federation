@@ -86,7 +86,7 @@ Ensure you have the following installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/vercel-labs/microfrontends-nextjs-pages-module-federation.git
+   git clone https://github.com/vercel-labs/microfrontends-nextjs-pages-federation.git
    cd microfrontends-nextjs-pages-module-federation
    ```
 
